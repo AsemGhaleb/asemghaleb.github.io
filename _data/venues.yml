@@ -3,9 +3,12 @@
 
 "IJCIP":
   url: https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection
+  color: "#00369f"
 
 "ISSTA 2020":
+  url: https://conf.researchr.org/track/issta-2020/issta-2020-papers
   color: "#00369f"
 
 "ISSTA 2022":
+  url : https://conf.researchr.org/track/issta-2022/issta-2022-technical-papers
   color: "#00369f"
