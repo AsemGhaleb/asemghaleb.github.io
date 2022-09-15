@@ -3,6 +3,112 @@
 
 @string{aps = {American Physical Society,}}
 
+
+@inproceedings{10.1145/3533767.3534378,
+abbr={ISSTA 2022},
+author = {Ghaleb, Asem and Rubin, Julia and Pattabiraman, Karthik},
+title = {eTainter: Detecting Gas-Related Vulnerabilities in Smart Contracts},
+year = {2022},
+isbn = {9781450393799},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3533767.3534378},
+doi = {10.1145/3533767.3534378},
+abstract = {The execution of smart contracts on the Ethereum blockchain consumes gas paid for by users submitting contracts' invocation requests. A contract execution proceeds as long as the users dedicate enough gas, within the limit set by Ethereum. If insufficient gas is provided, the contract execution halts and changes made during execution get reverted. Unfortunately, contracts may contain code patterns that increase execution cost, causing the contracts to run out of gas. These patterns can be manipulated by malicious attackers to induce unwanted behavior in the targeted victim contracts, e.g., Denial-of-Service (DoS) attacks. We call these gas-related vulnerabilities. We propose eTainter, a static analyzer for detecting gas-related vulnerabilities based on taint tracking in the bytecode of smart contracts. We evaluate eTainter by comparing it with the prior work, MadMax, on a dataset of annotated contracts. The results show that eTainter outperforms MadMax in both precision and recall, and that eTainter has a precision of 90% based on manual inspection. We also use eTainter to perform large-scale analysis of 60,612 real-world contracts on the Ethereum blockchain. We find that gas-related vulnerabilities exist in 2,763 of these contracts, and that eTainter analyzes a contract in eight seconds, on average.},
+booktitle = {Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis},
+pages = {728–739},
+numpages = {12},
+keywords = {security, Ethereum, taint analysis, Solidity},
+location = {Virtual, South Korea},
+series = {ISSTA 2022},
+pdf = {issta22.pdf},
+talk = {ISSTA22-presentation.pdf},
+code = {https://github.com/DependableSystemsLab/eTainter},
+selected={true}
+}
+
+@inproceedings{10.1145/3395363.3397385,
+abbr={ISSTA 2020},
+author = {Ghaleb, Asem and Pattabiraman, Karthik},
+title = {How Effective Are Smart Contract Analysis Tools? Evaluating Smart Contract Static Analysis Tools Using Bug Injection},
+year = {2020},
+isbn = {9781450380089},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3395363.3397385},
+doi = {10.1145/3395363.3397385},
+abstract = {Security attacks targeting smart contracts have been on the rise, which have led to financial loss and erosion of trust. Therefore, it is important to enable developers to discover security vulnerabilities in smart contracts before deployment. A number of static analysis tools have been developed for finding security bugs in smart contracts. However, despite the numerous bug-finding tools, there is no systematic approach to evaluate the proposed tools and gauge their effectiveness. This paper proposes SolidiFI, an automated and systematic approach for evaluating smart contracts’ static analysis tools. SolidiFI is based on injecting bugs (i.e., code defects) into all potential locations in a smart contract to introduce targeted security vulnerabilities. SolidiFI then checks the generated buggy contract using the static analysis tools, and identifies the bugs that the tools are unable to detect (false-negatives) along with identifying the bugs reported as false-positives. SolidiFI is used to evaluate six widely-used static analysis tools, namely, Oyente, Securify, Mythril, SmartCheck, Manticore and Slither, using a set of 50 contracts injected by 9369 distinct bugs. It finds several instances of bugs that are not detected by the evaluated tools despite their claims of being able to detect such bugs, and all the tools report many false positives.},
+booktitle = {Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis},
+pages = {415–427},
+numpages = {13},
+keywords = {bug injection, smart contracts, Ethereum security, smart contracts analysis, fault injection, smart contracts security, static analysis tools evaluation, smart contracts dataset, solidity code analysis, Ethereum},
+location = {Virtual Event, USA},
+series = {ISSTA 2020},
+pdf ={issta20.pdf},
+talk = {issta20-presentation.pdf},
+code ={https://github.com/DependableSystemsLab/SolidiFI},
+selected={true}
+}
+
+@article{ghaleb2018plc,
+  abbr={IJCIP},
+  title={On PLC network security},
+  author={Ghaleb, Asem and Zhioua, Sami and Almulhem, Ahmad},
+  abstract = {Programmable Logic Controller (PLC) is an important component in modern Industrial Control Systems (ICS) particular in Supervisory Control and Data Acquisition (SCADA) systems. Disturbing the normal operation of PLCs can lead to significant damages ranging from minor annoyance to large scale incidents threatening the life of people. While most of existing work in the SCADA security literature focuses on the communication between PLCs and field devices, this paper presents a network security analysis of the communication between PLCs and the engineering stations in charge of setting up and configuring them. Interestingly, this aspect of SCADA security was exploited by the most famous SCADA attack, namely, Stuxnet. Using a testbed with a common PLC device, we successfully carried out three network attacks leading to serious compromise of typical PLCs.},
+  journal={International Journal of Critical Infrastructure Protection},
+  volume={22},
+  pages={62--69},
+  year={2018},
+  publisher={Elsevier},
+  html ={https://www.sciencedirect.com/science/article/abs/pii/S1874548215300421},  
+  selected={true}
+
+}
+
+@INPROCEEDINGS{7882610, 
+ author={Ghaleb, Asem and Zhioua, Sami and Almulhem, Ahmad},
+   booktitle={2016 World Congress on Industrial Control Systems Security (WCICSS)},   
+   title={SCADA-SST: a SCADA security testbed},   year={2016},  volume={},  number={},  pages={1-6},  doi={10.1109/WCICSS.2016.7882610}}
+
+
+@article{10.3233/JCS-191346,
+author = {Jethva, Brijesh and Traor\'{e}, Issa and Ghaleb, Asem and Ganame, Karim and Ahmed, Sherif},
+title = {Multilayer Ransomware Detection Using Grouped Registry Key Operations, File Entropy and File Signature Monitoring},
+year = {2020},
+issue_date = {2020},
+publisher = {IOS Press},
+address = {NLD},
+volume = {28},
+number = {3},
+issn = {0926-227X},
+url = {https://doi.org/10.3233/JCS-191346},
+doi = {10.3233/JCS-191346},
+abstract = {The last few years have come with a sudden rise in ransomware attack incidents, causing significant financial losses to individuals, institutions and businesses. In reaction to these attacks, ransomware detection has become an important topic for research in recent years. Currently, there are two broad categories of ransomware detection techniques: signature-based and behaviour-based analyses. On the one hand, signature-based detection, which mainly relies on a static analysis, can easily be evaded by code-obfuscation and encryption techniques. On the other hand, current behaviour-based models, which rely mainly on a dynamic analysis, face difficulties in accurately differentiating between user-triggered encryption from ransomware-triggered encryption. In the current paper, we present an upgraded behavioural ransomware detection model that reinforces the existing feature space with a new set of features based on grouped registry key operations, introducing a monitoring model based on combined file entropy and file signature. We analyze the new feature model by exploring and comparing three different linear machine learning techniques: SVM, logistic regression and random forest. The proposed approach helps achieve improved detection accuracy and provides the ability to detect novel ransomware. Furthermore, the proposed approach helps differentiate user-triggered encryption from ransomware-triggered encryption, allowing saving as many files as possible during an attack. To conduct our study, we use a new public ransomware detection dataset collected in our lab, which consists of 666 ransomware and 103 benign binaries. Our experimental results show that our proposed approach achieves relatively high accuracy in detecting both previously seen and novel ransomware samples.},
+journal={Journal of Computer Security},
+month = {jan},
+pages = {337–373},
+numpages = {37},
+keywords = {machine learning, file entropy, Ransomware detection, file signature}
+}
+
+@inproceedings{10.1007/978-3-030-45371-8_22,
+author = {Modi, Jaimin and Traore, Issa and Ghaleb, Asem and Ganame, Karim and Ahmed, Sherif},
+title = {Detecting Ransomware in Encrypted Web Traffic},
+year = {2019},
+isbn = {978-3-030-45370-1},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-030-45371-8_22},
+doi = {10.1007/978-3-030-45371-8_22},
+abstract = {To date, only a small amount of research has focused on detecting ransomware at the network level, and none of the published proposals have addressed the challenges raised by the fact that an increasing number of ransomware are using encrypted channels for communication with the command and control (C&amp;C) server, mainly, over the HTTPS protocol. Despite the limited amount of ransomware-specific data available in network traffic, network-level detection represents a valuable extension of system-level detection as this could provide early indication of ransomware activities and allow disrupting such activities before serious damage can take place. To address the aforementioned gap, we propose, in the current paper, a new approach for detecting ransomware in encrypted network traffic that leverages network connections, certificate information and machine learning. We leverage an existing feature model developed for general malware and develop a robust network flow behavior analysis model using machine learning that separates effectively ransomware traffic from normal traffic. We study three different classifiers: random forest, SVM and logistic regression. Experimental evaluation on a diversified dataset yields a detection rate of 99.9% and a false positive rate of 0% for random forest, the best performing of the three classifiers.},
+booktitle = {Foundations and Practice of Security: 12th International Symposium, FPS 2019, Toulouse, France, November 5–7, 2019, Revised Selected Papers},
+pages = {345–353},
+numpages = {9},
+keywords = {Network traffic, Machine learning, Encrypted web traffic, Ransomware detection},
+location = {Toulouse, France}
+}
+%**********************************
+
 @book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
@@ -38,11 +144,10 @@
   year={1935},
   month={May},
   publisher=aps,
-  doi={10.1103/PhysRev.47.777},
   url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
   html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
   pdf={example_pdf.pdf},
-  selected={true}
+  selected={false}
 }
 
 @article{einstein1905molekularkinetischen,
