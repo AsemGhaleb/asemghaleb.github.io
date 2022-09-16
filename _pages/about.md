@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD candidtate at the University of British Columbia, Vancouver</a>
+subtitle: PhD candidtate, University of British Columbia, Vancouver, Canada
 
 profile:
   align: right
