@@ -3,25 +3,25 @@
 
 "IJCIP":
   url: https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection
-  color: "#00369f"
+  color: "#69009f"
 
 "ISSTA 2020":
   url: https://conf.researchr.org/track/issta-2020/issta-2020-papers
-  color: "#00369f"
+  color: "#369f00"
 
 "ISSTA 2022":
   url : https://conf.researchr.org/track/issta-2022/issta-2022-technical-papers
-  color: "#00369f"
+  color: "#369f00"
 
-"ASE 2022 DS":
+"ASE 2022":
   url: https://conf.researchr.org/track/ase-2022/ase-2022-doctoral-symposium
-  color: "#00369f"
+  color: "#3a7dff"
 
 "WCICSS 2016":
   color: "#00369f"
 
 "JCS":
-  color: "#00369f"
+  color: "#00869f"
 
 "FPS 2019":
   color: "#00369f"
