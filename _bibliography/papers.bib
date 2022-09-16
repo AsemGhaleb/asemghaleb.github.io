@@ -76,12 +76,17 @@ selected={true}
 }
 
 @INPROCEEDINGS{7882610, 
+ abbr={WCICSS 2016},
  author={Ghaleb, Asem and Zhioua, Sami and Almulhem, Ahmad},
-   booktitle={2016 World Congress on Industrial Control Systems Security (WCICSS)},   
-   title={SCADA-SST: a SCADA security testbed},   year={2016},  volume={},  number={},  pages={1-6},  doi={10.1109/WCICSS.2016.7882610}}
+  booktitle={2016 World Congress on Industrial Control Systems Security (WCICSS)},  
+  doi={10.1109/WCICSS.2016.7882610},
+  html={https://doi.org/10.1109/WCICSS.2016.7882610}, 
+  abstract={The number of reported cybersecurity incidents on SCADA (Supervisory Control and Data Acquisition) systems increased significantly in the past few years. One contributing factor is the fact that security testing of live SCADA systems is not practical as such systems are expected to be operational 24/7. Also and most importantly, conducting live security testing on these types of systems is generally costly. A practical and cost-effective solution is to carry out security testing on a simulated version of the physical setting. The main contribution of this paper is to present a SCADA simulation environment (SCADA-SST) suitable for security testing. The simulation environment is generic, easy to setup (comes with a detailed manual), and supports hybrid architectures (involving simulated as well as physical components). We show how SCADA-SST can be used to simulate two realistic settings, namely, Water distribution and Electrical power grid. Finally, for the sake of security testing example, we show how SCADASST can be used to assess the resilience of common SCADA nodes to DOS attacks.},
+  title={SCADA-SST: a SCADA security testbed},   year={2016},  volume={},  number={},  pages={1-6},  doi={10.1109/WCICSS.2016.7882610}}
 
 
 @article{10.3233/JCS-191346,
+abbr={JCS},
 author = {Jethva, Brijesh and Traor\'{e}, Issa and Ghaleb, Asem and Ganame, Karim and Ahmed, Sherif},
 title = {Multilayer Ransomware Detection Using Grouped Registry Key Operations, File Entropy and File Signature Monitoring},
 year = {2020},
@@ -92,6 +97,7 @@ volume = {28},
 number = {3},
 issn = {0926-227X},
 url = {https://doi.org/10.3233/JCS-191346},
+html = {https://doi.org/10.3233/JCS-191346},
 doi = {10.3233/JCS-191346},
 abstract = {The last few years have come with a sudden rise in ransomware attack incidents, causing significant financial losses to individuals, institutions and businesses. In reaction to these attacks, ransomware detection has become an important topic for research in recent years. Currently, there are two broad categories of ransomware detection techniques: signature-based and behaviour-based analyses. On the one hand, signature-based detection, which mainly relies on a static analysis, can easily be evaded by code-obfuscation and encryption techniques. On the other hand, current behaviour-based models, which rely mainly on a dynamic analysis, face difficulties in accurately differentiating between user-triggered encryption from ransomware-triggered encryption. In the current paper, we present an upgraded behavioural ransomware detection model that reinforces the existing feature space with a new set of features based on grouped registry key operations, introducing a monitoring model based on combined file entropy and file signature. We analyze the new feature model by exploring and comparing three different linear machine learning techniques: SVM, logistic regression and random forest. The proposed approach helps achieve improved detection accuracy and provides the ability to detect novel ransomware. Furthermore, the proposed approach helps differentiate user-triggered encryption from ransomware-triggered encryption, allowing saving as many files as possible during an attack. To conduct our study, we use a new public ransomware detection dataset collected in our lab, which consists of 666 ransomware and 103 benign binaries. Our experimental results show that our proposed approach achieves relatively high accuracy in detecting both previously seen and novel ransomware samples.},
 journal={Journal of Computer Security},
@@ -102,6 +108,7 @@ keywords = {machine learning, file entropy, Ransomware detection, file signature
 }
 
 @inproceedings{10.1007/978-3-030-45371-8_22,
+abbr={FPS 2019},
 author = {Modi, Jaimin and Traore, Issa and Ghaleb, Asem and Ganame, Karim and Ahmed, Sherif},
 title = {Detecting Ransomware in Encrypted Web Traffic},
 year = {2019},
@@ -109,6 +116,7 @@ isbn = {978-3-030-45370-1},
 publisher = {Springer-Verlag},
 address = {Berlin, Heidelberg},
 url = {https://doi.org/10.1007/978-3-030-45371-8_22},
+html = {https://doi.org/10.1007/978-3-030-45371-8_22},
 doi = {10.1007/978-3-030-45371-8_22},
 abstract = {To date, only a small amount of research has focused on detecting ransomware at the network level, and none of the published proposals have addressed the challenges raised by the fact that an increasing number of ransomware are using encrypted channels for communication with the command and control (C&amp;C) server, mainly, over the HTTPS protocol. Despite the limited amount of ransomware-specific data available in network traffic, network-level detection represents a valuable extension of system-level detection as this could provide early indication of ransomware activities and allow disrupting such activities before serious damage can take place. To address the aforementioned gap, we propose, in the current paper, a new approach for detecting ransomware in encrypted network traffic that leverages network connections, certificate information and machine learning. We leverage an existing feature model developed for general malware and develop a robust network flow behavior analysis model using machine learning that separates effectively ransomware traffic from normal traffic. We study three different classifiers: random forest, SVM and logistic regression. Experimental evaluation on a diversified dataset yields a detection rate of 99.9% and a false positive rate of 0% for random forest, the best performing of the three classifiers.},
 booktitle = {Foundations and Practice of Security: 12th International Symposium, FPS 2019, Toulouse, France, November 5–7, 2019, Revised Selected Papers},
@@ -117,6 +125,17 @@ numpages = {9},
 keywords = {Network traffic, Machine learning, Encrypted web traffic, Ransomware detection},
 location = {Toulouse, France}
 }
+
+@INPROCEEDINGS{8802828, 
+  abbr={CNS 2019},
+  author={Ghaleb, Asem and Traore, Issa and Ganame, Karim}, 
+  booktitle={2019 IEEE Conference on Communications and Network Security (CNS)},
+  abstract={Cloud computing endpoints security monitoring faces more challenges compared with traditional networks due to the ephemeral nature of cloud assets. Existing endpoint security monitors use agents that must be installed on every computing host or endpoint. However, as the number of monitored instances increases, agents installation, configuration and maintenance become arduous and requires more efforts. Moreover, installed agents can increase the security threat footprint and several companies impose restrictions on using agents on every computing system. This work provides a generic agentless endpoint framework for security monitoring of cloud computing endpoints. The endpoints are accessed by the monitoring framework running on a central server. Since the monitoring framework is separate from the machines for which the monitoring is being performed, the various security models of the framework can perform data retrieval and analysis without utilizing agents executing within the endpoints. The monitoring framework retrieves transparently raw data from the monitored endpoints that are then fed to the security modules integrated with the framework. These modules analyze the received data to perform security monitoring of the target endpoints. As a use case, a real-time intrusion detection model has been implemented to detect abnormal behaviors on endpoints based on the data collected using the introduced framework.},
+  title={A Framework Architecture for Agentless Cloud Endpoint Security Monitoring},   
+  year={2019},  volume={},  number={},  pages={1-9}, 
+  doi={10.1109/CNS.2019.8802828},
+  html={https://doi.org/10.1109/CNS.2019.8802828}
+  }
 %**********************************
 
 @book{einstein1956investigations,
