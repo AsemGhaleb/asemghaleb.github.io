@@ -5,6 +5,10 @@
   url: https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection
   color: "#69009f"
 
+"ICSE 2023":
+  url : https://conf.researchr.org/track/icse-2023/icse-2023-technical-track
+  color: "#4974a5"
+
 "ISSTA 2020":
   url: https://conf.researchr.org/track/issta-2020/issta-2020-papers
   color: "#369f00"
