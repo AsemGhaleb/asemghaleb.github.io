@@ -3,5 +3,6 @@ github_users:
 
 github_repos:
   - DependableSystemsLab/SolidiFI 
+  - DependableSystemsLab/AChecker
   - DependableSystemsLab/eTainter
   - DependableSystemsLab/SolidiFI-benchmark
