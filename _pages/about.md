@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 #subtitle: <a href='https://www.asemghaleb.com'> Curriculum Viate (CV)</a>
-subtitle: I am currently on the job market looking for industry research positins starting Spring 2023.
+subtitle: I am currently on the job market looking for industry research/engineering positins starting Spring 2023.
 
 profile:
   align: right
