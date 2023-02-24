@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-08-05 07:59:00-0400
+date: 2022-12-08 07:59:00-0400
 inline: true
 ---
 
-My paper `Towards Effective Static Analysis Approaches for Security
-  Vulnerabilities in Smart Contracts` has been accepted to the ASE'22 doctoral symposium! :sparkles: :smile:
+Our paper `AChecker: Statically Detecting Smart Contract Access Control
+  Vulnerabilities` has been accepted to ICSE'23! :sparkles: :smile:
