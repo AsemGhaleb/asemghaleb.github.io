@@ -5,4 +5,4 @@ inline: true
 ---
 
 Our paper `eTainter: Detecting Gas-Related Vulnerabilities in Smart
-  Contracts` has been accepted to ISSTA'22! :sparkles: :smile:
+  Contracts` has been accepted to ISSTA'22! :sparkles:

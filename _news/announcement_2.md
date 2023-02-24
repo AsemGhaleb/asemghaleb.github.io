@@ -5,4 +5,4 @@ inline: true
 ---
 
 Our paper `AChecker: Statically Detecting Smart Contract Access Control
-  Vulnerabilities` has been accepted to ICSE'23! :sparkles: :smile:
+  Vulnerabilities` has been accepted to ICSE'23! :sparkles: 

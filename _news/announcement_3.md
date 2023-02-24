@@ -5,4 +5,4 @@ inline: true
 ---
 
 My paper `Towards Effective Static Analysis Approaches for Security
-  Vulnerabilities in Smart Contracts` has been accepted to the ASE'22 doctoral symposium! :sparkles: :smile:
+  Vulnerabilities in Smart Contracts` has been accepted to the ASE'22 doctoral symposium! :sparkles: 
