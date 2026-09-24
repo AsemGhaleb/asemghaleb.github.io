@@ -1,6 +1,3 @@
-"PhysRev":
-  url: https://journals.aps.org/
-
 "IJCIP":
   url: https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection
   color: "#69009f"
@@ -33,5 +30,6 @@
 "CNS 2019":
   color: "#00369f"
 
-
- 
+"PhD Thesis":
+  url: https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0435192
+  color: "#002145"
