@@ -9,3 +9,6 @@ _site
 Gemfile.lock
 vendor
 
+
+# private CV sources (phone number, LaTeX) - never publish
+CV/
